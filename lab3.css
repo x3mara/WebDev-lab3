@@ -29,3 +29,31 @@ body{
 .vitem{
     padding: 10px;
 }
+
+.buttonscontainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button{
+    padding: 5px;
+    border: 0;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+button:active{
+    background-color: blue;
+}
+
+#circle{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+}
